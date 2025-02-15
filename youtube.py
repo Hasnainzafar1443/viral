@@ -17,11 +17,11 @@ days = st.number_input("Enter Days to Search (1-30):", min_value=1, max_value=30
 # List of broader keywords
 keywords = [
  "Data Comparison", "Net Worth", "Hollywood Actresses", "Hollywood Actors", 
-"Then & Now", "Hollywood", "Legend Actors", "Hollywood  Actors Height", "Data Celebraties", 
-"Hollywood Stories", "Actors Age", "Hollywood Networth", "Celebraties Comparison", 
+"Then & Now", "Hollywood", "Legend Actors", "Hollywood  Actors Height", "Data Celebrities", 
+"Hollywood Stories", "Actors Age", "Hollywood Networth", "Celebrities Comparison", 
 "Jewish Hollywood Actors", "Real Life Story", "Hollywood Legend", 
 "Networh", "Real Cast", "Brother and Sister", 
-"Vs Comparison", "Real Data", "Celebraties News", "Exposed Wife", 
+"Vs Comparison", "Real Data", "Celebrities News", "Exposed Wife", 
 "Hollywood Legend Actors"
 ]
 
@@ -115,7 +115,7 @@ if st.button("Fetch Data"):
                 )
                 st.write("---")
         else:
-            st.warning("No results found for channels with fewer than 130,000 subscribers.")
+            st.warning("No results found for channels with fewer than 3,000 subscribers.")
 
     except Exception as e:
         st.error(f"An error occurred: {e}")
